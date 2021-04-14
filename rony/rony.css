@@ -1,0 +1,25 @@
+.titulo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.jogo {
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+}
+
+h2 {
+  margin: 2em auto;
+}
+.historiaJogo {
+  display: flex;
+  flex-direction: column;
+  margin: 1em auto;
+}
+
+.escolha {
+  display: flex;
+  justify-content: center;
+  margin: 2em 0;
+}

@@ -1,0 +1,60 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+/*Responsável pelo cabeçalho*/
+header {
+  display: flex;
+  box-sizing: border-box;
+  background: cadetblue;
+}
+
+.logo {
+  color: azure;
+  margin: 1em auto;
+  font-size: 2em;
+  border: solid black 1px;
+  border-radius: 5px;
+  background-color: black;
+}
+/*-----------------------------------------------*/
+
+/*Responsável pela main*/
+main {
+  background: linear-gradient(#06373d, cadetblue);
+  color: azure;
+}
+
+.historiaJogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.introducaoJogo {
+  align-self: center;
+}
+
+.personagens {
+  display: flex;
+  justify-content: space-around;
+
+  width: 100%;
+}
+
+.narrativa {
+  border: solid black 1px;
+  width: 25%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  background: rgb(255, 217, 0);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  box-sizing: content-box;
+  background: cadetblue;
+}
+
+/*-----------------------------------------------*/
